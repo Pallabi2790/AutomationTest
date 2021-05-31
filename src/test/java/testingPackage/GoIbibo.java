@@ -32,7 +32,8 @@ public class GoIbibo extends PageClassIbibo{
 		
 		Thread.sleep(2000);
 		SourceCity.sendKeys(Keys.DOWN);
-		SourceCity.sendKeys(Keys.ENTER);		
+		SourceCity.sendKeys(Keys.ENTER);
+		
 				
 	    DestinationCity.sendKeys(destination);
 				
