@@ -22,6 +22,7 @@ public class GoIbibo extends PageClassIbibo{
 	public GoIbibo(WebDriver driver)
 	{
 		super(driver);
+		
 	}
 
 	
