@@ -16,7 +16,7 @@ public class GoIbibo extends PageClassIbibo{
 	@FindBy(xpath="//input[@id='departureCalendar']") public WebElement DateSelector;
 	@FindBy(css="div[class*='today']") public WebElement CurrentDate;
 	@FindBy(xpath="//button[contains(text(),'SEARCH')]") public WebElement SearchButton;
-	@FindBy(xpath="//div[contains(@class,'RightWrap')] //div[3] //button[contains(text(),'BOOK')][1]") public WebElement Book;
+	@FindBy(xpath="//div[contains(@class,'RightWrap')] //div //button[contains(text(),'BOOK')][1]") public WebElement Book;
 	@FindBy(xpath="//span[contains(text(),'Total Amount')]/parent::div/following-sibling::div/div/span") public WebElement Total;
 	
 	public GoIbibo(WebDriver driver)
